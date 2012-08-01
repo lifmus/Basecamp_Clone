@@ -3,6 +3,12 @@ BasecampClone::Application.routes.draw do
 
   root :to => "projects#index"
   resources :projects
+
+  resources :todos
+
+  resources :tasks
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
