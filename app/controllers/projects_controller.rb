@@ -10,7 +10,8 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    @project = current_user.projects.new(params[:project])
+    @project = Project.new(params[:project])
+    @project.user_id = current_user.id
     if @project.save
       flash[:message] = "You have made a new project"
       redirect_to project_path(@project)

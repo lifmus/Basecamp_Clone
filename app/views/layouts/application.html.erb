@@ -11,11 +11,12 @@
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="brand" href="<%= root_path %>">Basecamp Clone</a>
+          <div>
           <%= render 'shared/nav' %>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
     <div class="container-fluid body">
       <%= render :partial => 'shared/flash', :locals => { :flash => flash } %>

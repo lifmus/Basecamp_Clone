@@ -15,6 +15,7 @@ group :test, :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'rspec-rails'
+  gem 'shoulda'
 end
 
 group :test do

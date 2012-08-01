@@ -11,14 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120801183625) do
+ActiveRecord::Schema.define(:version => 20120801222819) do
+
+  create_table "project_roles", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
+    t.string   "title",      :default => "member"
+  end
+
+  add_index "project_roles", ["project_id"], :name => "index_project_roles_on_project_id"
+  add_index "project_roles", ["user_id"], :name => "index_project_roles_on_user_id"
 
   create_table "projects", :force => true do |t|
     t.string   "title"
-    t.boolean  "public"
     t.integer  "user_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "privacy"
   end
 
   add_index "projects", ["user_id"], :name => "index_projects_on_user_id"

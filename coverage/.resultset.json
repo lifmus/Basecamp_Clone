@@ -1,0 +1,123 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/user.rb": [
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/projects_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/tasks_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/todos_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/projects_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/project.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/tasks_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/task.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/todos_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/todo.rb": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/project_role.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1343860807
+  }
+}

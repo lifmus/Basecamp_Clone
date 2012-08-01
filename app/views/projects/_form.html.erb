@@ -6,10 +6,10 @@
   </div>
 
   <div class= "field">
-    <%= f.label :public, "Public Project?" %>
-    <%= radio_button("project", "public", "true") %><br />
-    <%= f.label :public, "Private Project?" %>
-    <%= radio_button("project", "public", "false") %>
+    <%= f.label :privacy, "Public Project?" %>
+    <%= radio_button("project", "privacy", "public") %><br />
+    <%= f.label :privacy, "Private Project?" %>
+    <%= radio_button("project", "privacy", "private") %>
   </div>
 
   <div class= "field">
