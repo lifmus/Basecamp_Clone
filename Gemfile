@@ -2,17 +2,23 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
 gem 'bootstrap-sass'
+gem 'devise'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :test, :deveopment do
+group :test, :development do
   gem 'sqlite3'
-  gem 'quiet_assets'
+
+  gem 'faker'
+  gem 'fabrication'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'simplecov'
 end
 
 group :production do
@@ -24,6 +30,7 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'quiet_assets'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
