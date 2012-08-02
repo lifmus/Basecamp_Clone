@@ -12,7 +12,7 @@
         null,
         1,
         null,
-        null,
+        1,
         1,
         1,
         null,
@@ -99,6 +99,23 @@
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/todos_controller.rb": [
         1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/todo.rb": [
@@ -118,6 +135,6 @@
         null
       ]
     },
-    "timestamp": 1343860807
+    "timestamp": 1343867119
   }
 }

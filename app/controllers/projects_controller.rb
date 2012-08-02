@@ -16,8 +16,8 @@ class ProjectsController < ApplicationController
       flash[:message] = "You have made a new project"
       redirect_to project_path(@project)
     else
-      render 'new'
       flash[:error] = "You cannot have blank fields!"
+      redirect_to new_project_path
     end
   end
 
