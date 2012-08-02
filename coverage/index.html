@@ -23,14 +23,14 @@
       <img src="./assets/0.5.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2012-08-01T17:25:19-07:00">2012-08-01T17:25:19-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2012-08-01T17:37:36-07:00">2012-08-01T17:37:36-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">70.77%</span></span>
+    (<span class="covered_percent"><span class="red">71.88%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -41,9 +41,9 @@
   <a name="AllFiles"></a>
   <div>
     <b>13</b> files in total.
-    <b>65</b> relevant lines. 
+    <b>64</b> relevant lines. 
     <span class="green"><b>46</b> lines covered</span> and
-    <span class="red"><b>19</b> lines missed </span>
+    <span class="red"><b>18</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -91,11 +91,11 @@
       
       <tr>
         <td class="strong"><a href="#e26f4c15d34d4b56e00cd232e973e88ab412fd10" class="src_link" title="app/controllers/todos_controller.rb">app/controllers/todos_controller.rb</a></td>
-        <td class="red strong">27.27 %</td>
-        <td>19</td>
-        <td>11</td>
+        <td class="red strong">30.0 %</td>
+        <td>18</td>
+        <td>10</td>
         <td>3</td>
-        <td>8</td>
+        <td>7</td>
         <td>0.3</td>
       </tr>
       
@@ -198,7 +198,7 @@
           <div class="file_list_container" id="Controllers">
   <h2>
     <span class="group_name">Controllers</span>
-    (<span class="covered_percent"><span class="red">40.0%</span></span>
+    (<span class="covered_percent"><span class="red">41.38%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -209,9 +209,9 @@
   <a name="Controllers"></a>
   <div>
     <b>4</b> files in total.
-    <b>30</b> relevant lines. 
+    <b>29</b> relevant lines. 
     <span class="green"><b>12</b> lines covered</span> and
-    <span class="red"><b>18</b> lines missed </span>
+    <span class="red"><b>17</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -259,11 +259,11 @@
       
       <tr>
         <td class="strong"><a href="#e26f4c15d34d4b56e00cd232e973e88ab412fd10" class="src_link" title="app/controllers/todos_controller.rb">app/controllers/todos_controller.rb</a></td>
-        <td class="red strong">27.27 %</td>
-        <td>19</td>
-        <td>11</td>
+        <td class="red strong">30.0 %</td>
+        <td>18</td>
+        <td>10</td>
         <td>3</td>
-        <td>8</td>
+        <td>7</td>
         <td>0.3</td>
       </tr>
       
@@ -812,11 +812,11 @@
         <div class="source_table" id="e26f4c15d34d4b56e00cd232e973e88ab412fd10">
   <div class="header">
     <h3>app/controllers/todos_controller.rb</h3>
-    <h4><span class="red">27.27 %</span> covered</h4>
+    <h4><span class="red">30.0 %</span> covered</h4>
     <div>
-      <b>11</b> relevant lines. 
+      <b>10</b> relevant lines. 
       <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>8</b> lines missed.</span>
+      <span class="red"><b>7</b> lines missed.</span>
     </div>
   </div>
   
@@ -844,94 +844,88 @@
         <li class="missed" data-hits="0" data-linenumber="4">
           
           
-          <code class="ruby">    project = Project.find(params[:project])</code>
+          <code class="ruby">    @todo = Todo.new(:project_id =&gt; params[:project_id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="5">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
-          <code class="ruby">    @todo = project.todos.new</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="6">
           
           
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="7">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="8">
+        <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
           <code class="ruby">  def create</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
+        <li class="missed" data-hits="0" data-linenumber="8">
           
           
           <code class="ruby">    @todo = Todo.new(params[:todo])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
+        <li class="missed" data-hits="0" data-linenumber="9">
           
           
           <code class="ruby">    if @todo.save</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="11">
+        <li class="missed" data-hits="0" data-linenumber="10">
           
           
           <code class="ruby">      flash[:message] = &quot;You have made a new todo list!&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="missed" data-hits="0" data-linenumber="11">
           
           
-          <code class="ruby">      redirect_to todo_path(@todo)</code>
+          <code class="ruby">      redirect_to project_todo_path(@todo)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">    else</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
           <code class="ruby">      flash[:error] = &quot;You cannot have blank fields!&quot;</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
+        <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby">      redirect_to new_todo_path</code>
+          <code class="ruby">      redirect_to new_project_todo_path</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="16">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="17">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="18">
           
           
           <code class="ruby">end</code>

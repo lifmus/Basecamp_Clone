@@ -3,7 +3,9 @@ BasecampClone::Application.routes.draw do
 
   root :to => "projects#index"
   resources :projects do
-    resources :todos
+    resources :todos, :except => [:create]
+    post '/projects/:id/todos/new' => 'todos#create', :as => 'create_todo'
+
   end
   resources :tasks
 
