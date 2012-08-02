@@ -1,7 +1,9 @@
 class TodosController < ApplicationController
 
   def show
-
+    @todo = Todo.find(params[:id])
+    @task_group = 3.times.map{@todo.tasks.new}
+    @project = @todo.project
   end
 
 

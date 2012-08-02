@@ -89,6 +89,15 @@
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/tasks_controller.rb": [
         1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/task.rb": [
@@ -102,6 +111,14 @@
         null,
         1,
         0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
         null,
         null,
         1,
@@ -109,8 +126,10 @@
         0,
         0,
         0,
-        null,
         0,
+        0,
+        null,
+        null,
         0,
         null,
         null,
@@ -118,6 +137,7 @@
         null
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/todo.rb": [
+        1,
         1,
         1,
         1,
@@ -134,6 +154,6 @@
         null
       ]
     },
-    "timestamp": 1343867856
+    "timestamp": 1343943138
   }
 }
