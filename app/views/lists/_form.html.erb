@@ -1,0 +1,18 @@
+<%= form_for [@project, @list] do |t|%>
+  <% if @list.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@list.errors.count, "error") %> with form:</h2>
+
+    <ul>
+     <% @list.errors.full_messages.each do |msg| %>
+       <li><%= msg %></li>
+     <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <%= t.label :title%>
+  <%= t.text_field :title%>
+
+  <%= t.submit "Create list"%>
+<% end %>

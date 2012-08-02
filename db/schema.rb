@@ -36,21 +36,21 @@ ActiveRecord::Schema.define(:version => 20120801225225) do
 
   create_table "tasks", :force => true do |t|
     t.string   "title"
-    t.integer  "todo_id"
+    t.integer  "list_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  add_index "tasks", ["todo_id"], :name => "index_tasks_on_todo_id"
+  add_index "tasks", ["list_id"], :name => "index_tasks_on_list_id"
 
-  create_table "todos", :force => true do |t|
+  create_table "lists", :force => true do |t|
     t.string   "title"
     t.integer  "project_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
-  add_index "todos", ["project_id"], :name => "index_todos_on_project_id"
+  add_index "lists", ["project_id"], :name => "index_lists_on_project_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

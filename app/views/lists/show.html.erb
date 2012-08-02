@@ -1,0 +1,7 @@
+<ul>
+  <% @list.tasks.each do |task| %>
+    <li><%= task.title %></li>
+  <% end %>
+</ul>
+
+<%= render 'task_form' %>

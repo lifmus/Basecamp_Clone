@@ -1,4 +1,4 @@
-class Todo < ActiveRecord::Base
+class List < ActiveRecord::Base
   attr_accessible :project_id, :title, :tasks_attributes
   belongs_to :project
   has_many :tasks

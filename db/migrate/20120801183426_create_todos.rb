@@ -1,6 +1,6 @@
-class CreateTodos < ActiveRecord::Migration
+class CreateLists < ActiveRecord::Migration
   def change
-    create_table :todos do |t|
+    create_table :lists do |t|
       t.string :title
       t.integer :project_id
 

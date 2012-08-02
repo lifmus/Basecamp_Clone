@@ -27,6 +27,10 @@
         1,
         null
       ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/lists_helper.rb": [
+        1,
+        null
+      ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/projects_helper.rb": [
         1,
         null
@@ -35,7 +39,40 @@
         1,
         null
       ],
-      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/todos_helper.rb": [
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/lists_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/list.rb": [
+        1,
+        1,
+        1,
+        1,
         1,
         null
       ],
@@ -106,44 +143,6 @@
         1,
         null
       ],
-      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/todos_controller.rb": [
-        1,
-        null,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        0,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/todo.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        null
-      ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/project_role.rb": [
         1,
         1,
@@ -154,6 +153,6 @@
         null
       ]
     },
-    "timestamp": 1343947329
+    "timestamp": 1343948799
   }
 }

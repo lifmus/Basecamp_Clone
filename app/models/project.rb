@@ -2,7 +2,7 @@ class Project < ActiveRecord::Base
   attr_accessible :privacy, :title, :user_id
   has_many :users, :through => :project_roles
   has_many :project_roles
-  has_many :todos
+  has_many :lists
   belongs_to :user
   validates_presence_of :title, :privacy
   after_create :generate_join_table_for_owner

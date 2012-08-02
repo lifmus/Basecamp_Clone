@@ -5,5 +5,5 @@ describe Project do
   it { should validate_presence_of(:title)}
   it { should have_many(:users)}
   it { should have_many(:project_roles)}
-  it { should have_many(:todos)}
+  it { should have_many(:lists)}
 end

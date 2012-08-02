@@ -1,0 +1,5 @@
+<%= form_for([@list, @task]) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit "Create Task", :class => "btn btn-large btn-inverse"%>
+<% end %>

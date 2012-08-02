@@ -1,14 +1,15 @@
 <h2><%= @project.title %></h2>
 <div>
-  <%= link_to "Create a New Todo List", new_project_todo_path(@project) %>
+  <%= link_to "Create a New List List", new_project_list_path(@project) %>
 </div>
 
 <div>
   <ul>
-  <% @project.todos.all do |todo| %>
-    <li><%= todo.inspect %></li>
-    <ul><% todo.each do |task| %>
-      <li><%= task.title %><%= task.user_id %></li>
+  <% @project.lists.all do |list| %>
+    <li><%= list.title %></li>/
+
+    <ul><% list.tasks.each do |task| %>
+      <li><%= task.title %> | <%= task.user_id %></li>
     <% end %>
     </ul>
   <%end%>

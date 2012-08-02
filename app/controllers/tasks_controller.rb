@@ -1,11 +1,11 @@
 class TasksController < ApplicationController
   def create
-    @task = Task.new(params[:task][:task])
-    @task.todo_id = params[:todo_id]
-    @todo = @task.todo
-    @project = @todo.project
+    @task = Task.new(params[:task])
+    @task.list_id = params[:list_id]
+    @list = @task.list
+    @project = @list.project
     @task.save
-    redirect_to project_todo_path(@project, @todo)
+    redirect_to project_list_path(@project, @list)
 
   end
 end

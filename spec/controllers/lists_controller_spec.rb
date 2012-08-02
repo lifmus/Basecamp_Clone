@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe TodosController do
+describe ListsController do
 
 end

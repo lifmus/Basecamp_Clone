@@ -3,10 +3,10 @@ BasecampClone::Application.routes.draw do
 
   root :to => "projects#index"
   resources :projects do
-    resources :todos
+    resources :lists
   end
 
-  resources :todos do
+  resources :lists do
     resources :tasks
   end
 
