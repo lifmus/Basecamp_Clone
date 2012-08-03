@@ -1,0 +1,6 @@
+<% @project_roles.each do |role|%>
+  <ul>
+  <li><%= role.user.name%> | <%= role.title %></li>
+<% end%>
+  <li><%= render 'form' %></li>
+  </ul>

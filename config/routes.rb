@@ -4,6 +4,7 @@ BasecampClone::Application.routes.draw do
   root :to => "projects#index"
   resources :projects do
     resources :lists
+    resources :project_roles
   end
 
   resources :lists do

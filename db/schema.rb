@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120801225225) do
+ActiveRecord::Schema.define(:version => 20120802232040) do
+
+  create_table "lists", :force => true do |t|
+    t.string   "title"
+    t.integer  "project_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "lists", ["project_id"], :name => "index_lists_on_project_id"
 
   create_table "project_roles", :force => true do |t|
     t.integer  "user_id"
@@ -39,18 +48,10 @@ ActiveRecord::Schema.define(:version => 20120801225225) do
     t.integer  "list_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "user_id"
   end
 
   add_index "tasks", ["list_id"], :name => "index_tasks_on_list_id"
-
-  create_table "lists", :force => true do |t|
-    t.string   "title"
-    t.integer  "project_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "lists", ["project_id"], :name => "index_lists_on_project_id"
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

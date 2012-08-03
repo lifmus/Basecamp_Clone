@@ -11,5 +11,6 @@ class User < ActiveRecord::Base
   validates_presence_of :name
   has_many :projects, :through => :project_roles
   has_many :project_roles
+  has_many :tasks
 
 end

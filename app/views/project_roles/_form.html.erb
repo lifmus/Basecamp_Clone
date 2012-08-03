@@ -1,0 +1,16 @@
+<%= form_for([@project, @project_role]) do |f| %>
+  <div class= "field">
+    <%= f.label :user_id %>
+    <%= f.text_field :user_id %>
+  </div>
+  <div class= "field">
+    <%= f.label :title, "Admin?" %>
+    <%= radio_button("project_role", "title", "admin") %><br />
+    <%= f.label :title, "Member?" %>
+    <%= radio_button("project_role", "title", "member") %>
+  </div>
+  <%= f.submit "Add User", :class => "btn btn-large btn-inverse"%>
+<% end %>
+
+
+

@@ -2,7 +2,9 @@ class ProjectsController < ApplicationController
   before_filter :authenticate_user!
 
   def index
-    @projects = Project.find_all_by_user_id(current_user.id)
+    @all_involved_projects = ProjectRole.find_all_by_user_id(current_user.id).map { |project_role| project_role.project }
+    @projects = Project.find_all_by_privacy("public")
+    @projects = @projects | @all_involved_projects
   end
 
   def new

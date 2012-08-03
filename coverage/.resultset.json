@@ -15,6 +15,7 @@
         1,
         1,
         1,
+        1,
         null,
         null
       ],
@@ -28,6 +29,10 @@
         null
       ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/lists_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/helpers/project_roles_helper.rb": [
         1,
         null
       ],
@@ -76,11 +81,38 @@
         1,
         null
       ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/project_roles_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/project_role.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/controllers/projects_controller.rb": [
         1,
         1,
         null,
         1,
+        0,
+        0,
         0,
         null,
         null,
@@ -141,18 +173,40 @@
         1,
         1,
         1,
+        1,
         null
       ],
-      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/project_role.rb": [
+      "/Users/apprentice/Desktop/andrew_brett_basecamp/basecamp_clone/app/models/ability.rb": [
         1,
         1,
+        null,
         1,
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1343948799
+    "timestamp": 1343953028
   }
 }
